@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Sep 17 2025 19:19:40
+#sha1: 585b50
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+16639,design,log,
+#design: #exp: Circle
+#design: block_cnt,block_id,trial_cnt,trial_id
+16639,design,logged,
+16639,Experiment,started
+16643,Stimulus,presented,0
+16650,Stimulus,presented,1
+17154,Stimulus,presented,1
+21422,Keyboard,received,32,wait
+21422,Experiment,ended
+21443,Stimulus,presented,2
