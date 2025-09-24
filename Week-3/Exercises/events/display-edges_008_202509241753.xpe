@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Sep 24 2025 17:53:16
+#sha1: a91094
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+14214,design,log,
+#design: #exp: Display Edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+14214,design,logged,
+14214,Experiment,started
+14220,Stimulus,presented,1
+14242,Stimulus,presented,2
+14245,Stimulus,presented,3
+14261,Stimulus,presented,4
+14261,stderr,received,'Traceback (most recent call last):'
+14261,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Materials\\Week-3\\Exercises\\display-edges.py", line 22, in <module>'
+14261,stderr,received,'    exp.keyboard.wait()'
+14261,stderr,received,'    ^^^^^^^^^^^^'
+14262,stderr,received,"AttributeError: module 'expyriment' has no attribute 'keyboard'"

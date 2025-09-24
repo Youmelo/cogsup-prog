@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Sep 24 2025 18:50:55
+#sha1: 26519e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2157,Stimulus,presented,0
+2157,Stimulus,presented,1
+2158,Stimulus,presented,2
+2159,Stimulus,presented,3
+2160,Stimulus,presented,4
+4351,Keyboard,received,32,wait
+4351,Experiment,ended
+4356,Stimulus,presented,5

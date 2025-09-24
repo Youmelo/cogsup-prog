@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Sep 24 2025 17:51:27
+#sha1: f7812a
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+14070,design,log,
+#design: #exp: Display Edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+14070,design,logged,
+14070,Experiment,started
+14072,stderr,received,'Traceback (most recent call last):'
+14072,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Materials\\Week-3\\Exercises\\display-edges.py", line 15, in <module>'
+14072,stderr,received,'    cubes[num] = exp.stimuli.Rectangle('
+14072,stderr,received,'    ~~~~~^^^^^'
+14072,stderr,received,'IndexError: list assignment index out of range'
