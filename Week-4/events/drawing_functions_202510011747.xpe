@@ -1,0 +1,14 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Oct 01 2025 17:47:54
+#sha1: e74026
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2272,stderr,received,'Traceback (most recent call last):'
+2272,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\drawing_functions.py", line 45, in <module>'
+2272,stderr,received,'    present_for(stims, 500)'
+2272,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\drawing_functions.py", line 18, in present_for'
+2273,stderr,received,'    for i, stim in stims:'
+2273,stderr,received,'        ^^^^^^^'
+2273,stderr,received,'TypeError: cannot unpack non-iterable FixCross object'
