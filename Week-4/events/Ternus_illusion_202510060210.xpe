@@ -1,0 +1,85 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 02:10:59
+#sha1: 8cd2ac
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2138,stdout,received,'(-23, 0)'
+2152,Stimulus,presented,0
+2154,Stimulus,presented,1
+2454,Stimulus,presented,2
+2457,Stimulus,presented,3
+2756,stdout,received,'(-42, 0)'
+2785,Stimulus,presented,4
+2787,Stimulus,presented,5
+3088,Stimulus,presented,6
+3090,Stimulus,presented,7
+3390,stdout,received,'(-67, 0)'
+3410,Stimulus,presented,8
+3412,Stimulus,presented,9
+3712,Stimulus,presented,10
+3714,Stimulus,presented,11
+4017,stdout,received,'(-79, 0)'
+4039,Stimulus,presented,12
+4041,Stimulus,presented,13
+4342,Stimulus,presented,14
+4344,Stimulus,presented,15
+4642,stdout,received,'(-21, 0)'
+4663,Stimulus,presented,16
+4664,Stimulus,presented,17
+5266,Stimulus,presented,18
+5268,Stimulus,presented,19
+5867,stdout,received,'(-55, 0)'
+5888,Stimulus,presented,20
+5890,Stimulus,presented,21
+6491,Stimulus,presented,22
+6492,Stimulus,presented,23
+7092,stdout,received,'(-56, 0)'
+7112,Stimulus,presented,24
+7116,Stimulus,presented,25
+7715,Stimulus,presented,26
+7717,Stimulus,presented,27
+8316,stdout,received,'(-52, 0)'
+8333,Stimulus,presented,28
+8335,Stimulus,presented,29
+8936,Stimulus,presented,30
+8938,Stimulus,presented,31
+9538,stdout,received,'(-28, 0)'
+9570,Stimulus,presented,32
+9570,Stimulus,presented,33
+9570,Stimulus,presented,36
+9571,Stimulus,presented,37
+9873,Stimulus,presented,34
+9873,Stimulus,presented,35
+9873,Stimulus,presented,38
+9875,Stimulus,presented,39
+10174,stdout,received,'(-25, 0)'
+10199,Stimulus,presented,40
+10199,Stimulus,presented,41
+10199,Stimulus,presented,44
+10201,Stimulus,presented,45
+10501,Stimulus,presented,42
+10501,Stimulus,presented,43
+10501,Stimulus,presented,46
+10503,Stimulus,presented,47
+10804,stdout,received,'(-43, 0)'
+10834,Stimulus,presented,48
+10834,Stimulus,presented,49
+10834,Stimulus,presented,52
+10838,Stimulus,presented,53
+11136,Stimulus,presented,50
+11136,Stimulus,presented,51
+11136,Stimulus,presented,54
+11138,Stimulus,presented,55
+11439,stdout,received,'(-33, 0)'
+11475,Stimulus,presented,56
+11475,Stimulus,presented,57
+11475,Stimulus,presented,60
+11477,Stimulus,presented,61
+11776,Stimulus,presented,58
+11776,Stimulus,presented,59
+11776,Stimulus,presented,62
+11778,Stimulus,presented,63
+12078,Experiment,ended
+12083,Stimulus,presented,64

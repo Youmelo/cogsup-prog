@@ -1,0 +1,182 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 01:30:21
+#sha1: 421b05
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2133,Stimulus,presented,0
+2137,Stimulus,presented,1
+2439,Stimulus,presented,2
+2441,Stimulus,presented,3
+2754,Stimulus,presented,4
+2756,Stimulus,presented,5
+3057,Stimulus,presented,6
+3059,Stimulus,presented,7
+3372,Stimulus,presented,8
+3374,Stimulus,presented,9
+3673,Stimulus,presented,10
+3675,Stimulus,presented,11
+3989,Stimulus,presented,12
+3992,Stimulus,presented,13
+4291,Stimulus,presented,14
+4293,Stimulus,presented,15
+4604,Stimulus,presented,16
+4608,Stimulus,presented,17
+4906,Stimulus,presented,18
+4907,Stimulus,presented,19
+5216,Stimulus,presented,20
+5218,Stimulus,presented,21
+5518,Stimulus,presented,22
+5521,Stimulus,presented,23
+5831,Stimulus,presented,24
+5833,Stimulus,presented,25
+6133,Stimulus,presented,26
+6136,Stimulus,presented,27
+6446,Stimulus,presented,28
+6449,Stimulus,presented,29
+6748,Stimulus,presented,30
+6751,Stimulus,presented,31
+7069,Stimulus,presented,32
+7071,Stimulus,presented,33
+7371,Stimulus,presented,34
+7373,Stimulus,presented,35
+7686,Stimulus,presented,36
+7688,Stimulus,presented,37
+7988,Stimulus,presented,38
+7991,Stimulus,presented,39
+8308,Stimulus,presented,40
+8311,Stimulus,presented,41
+8611,Stimulus,presented,42
+8613,Stimulus,presented,43
+8925,Stimulus,presented,44
+8927,Stimulus,presented,45
+9410,Stimulus,presented,46
+9413,Stimulus,presented,47
+9730,Stimulus,presented,48
+9731,Stimulus,presented,49
+10032,Stimulus,presented,50
+10034,Stimulus,presented,51
+10344,Stimulus,presented,52
+10346,Stimulus,presented,53
+10646,Stimulus,presented,54
+10649,Stimulus,presented,55
+10964,Stimulus,presented,56
+10967,Stimulus,presented,57
+11267,Stimulus,presented,58
+11268,Stimulus,presented,59
+11585,Stimulus,presented,60
+11586,Stimulus,presented,61
+12054,Stimulus,presented,62
+12055,Stimulus,presented,63
+12372,Stimulus,presented,64
+12375,Stimulus,presented,65
+12673,Stimulus,presented,66
+12675,Stimulus,presented,67
+12992,Stimulus,presented,68
+12994,Stimulus,presented,69
+13455,Stimulus,presented,70
+13456,Stimulus,presented,71
+13776,Stimulus,presented,72
+13778,Stimulus,presented,73
+14078,Stimulus,presented,74
+14080,Stimulus,presented,75
+14569,Stimulus,presented,76
+14572,Stimulus,presented,77
+14871,Stimulus,presented,78
+14875,Stimulus,presented,79
+15184,Stimulus,presented,80
+15186,Stimulus,presented,81
+15786,Stimulus,presented,82
+15789,Stimulus,presented,83
+16406,Stimulus,presented,84
+16409,Stimulus,presented,85
+17009,Stimulus,presented,86
+17011,Stimulus,presented,87
+17633,Stimulus,presented,88
+17635,Stimulus,presented,89
+18234,Stimulus,presented,90
+18413,Stimulus,presented,91
+18853,Stimulus,presented,92
+18855,Stimulus,presented,93
+19455,Stimulus,presented,94
+19458,Stimulus,presented,95
+20075,Stimulus,presented,96
+20077,Stimulus,presented,97
+20676,Stimulus,presented,98
+20679,Stimulus,presented,99
+21290,Stimulus,presented,100
+21293,Stimulus,presented,101
+21892,Stimulus,presented,102
+21894,Stimulus,presented,103
+22512,Stimulus,presented,104
+22514,Stimulus,presented,105
+23115,Stimulus,presented,106
+23117,Stimulus,presented,107
+23735,Stimulus,presented,108
+23738,Stimulus,presented,109
+24338,Stimulus,presented,110
+24340,Stimulus,presented,111
+24958,Stimulus,presented,112
+24960,Stimulus,presented,113
+25561,Stimulus,presented,114
+25564,Stimulus,presented,115
+26181,Stimulus,presented,116
+26184,Stimulus,presented,117
+26783,Stimulus,presented,118
+26785,Stimulus,presented,119
+27406,Stimulus,presented,120
+27408,Stimulus,presented,121
+28008,Stimulus,presented,122
+28010,Stimulus,presented,123
+28628,Stimulus,presented,124
+28630,Stimulus,presented,125
+29229,Stimulus,presented,126
+29234,Stimulus,presented,127
+29848,Stimulus,presented,128
+29852,Stimulus,presented,129
+30450,Stimulus,presented,130
+30454,Stimulus,presented,131
+31070,Stimulus,presented,132
+31220,Stimulus,presented,133
+31751,Stimulus,presented,134
+31754,Stimulus,presented,135
+32371,Stimulus,presented,136
+32374,Stimulus,presented,137
+32975,Stimulus,presented,138
+32978,Stimulus,presented,139
+33588,Stimulus,presented,140
+33590,Stimulus,presented,141
+34190,Stimulus,presented,142
+34193,Stimulus,presented,143
+34808,Stimulus,presented,144
+34810,Stimulus,presented,145
+35413,Stimulus,presented,146
+35415,Stimulus,presented,147
+36030,Stimulus,presented,148
+36032,Stimulus,presented,149
+36632,Stimulus,presented,150
+36634,Stimulus,presented,151
+37253,Stimulus,presented,152
+37255,Stimulus,presented,153
+37855,Stimulus,presented,154
+37857,Stimulus,presented,155
+38474,Stimulus,presented,156
+38476,Stimulus,presented,157
+39077,Stimulus,presented,158
+39079,Stimulus,presented,159
+39682,stderr,received,'Traceback (most recent call last):'
+39682,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 58, in <module>'
+39682,stderr,received,'    t1f1 = add_tags(5, [(255, 0, 0)]* len(current_trial_positions["c1f1"]), current_trial_positions["c1f1"][trial])'
+39683,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+39683,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 13, in add_tags'
+39683,stderr,received,'    tags = [stimuli.Circle(radius = t_rad, position = pos, colour=t_color) for pos,t_color in zip(positions,t_colors)]'
+39684,stderr,received,'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+39684,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_circle.py", line 51, in __init__'
+39685,stderr,received,'    Ellipse.__init__(self, [radius, radius], colour, line_width,'
+39685,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_ellipse.py", line 43, in __init__'
+39685,stderr,received,'    Visual.__init__(self, position)'
+39685,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 237, in __init__'
+39685,stderr,received,'    self._position = list(position)'
+39685,stderr,received,'                     ^^^^^^^^^^^^^^'
+39685,stderr,received,"TypeError: 'int' object is not iterable"

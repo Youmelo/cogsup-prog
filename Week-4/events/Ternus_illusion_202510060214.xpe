@@ -1,0 +1,104 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 02:14:00
+#sha1: 8e1564
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2209,stdout,received,'(-78, 0)'
+2227,Stimulus,presented,0
+2228,Stimulus,presented,1
+2529,Stimulus,presented,2
+2531,Stimulus,presented,3
+2831,stdout,received,'(-24, 0)'
+2848,Stimulus,presented,4
+2850,Stimulus,presented,5
+3150,Stimulus,presented,6
+3152,Stimulus,presented,7
+3453,stdout,received,'(-38, 0)'
+3475,Stimulus,presented,8
+3478,Stimulus,presented,9
+3778,Stimulus,presented,10
+3780,Stimulus,presented,11
+4079,stdout,received,'(-46, 0)'
+4097,Stimulus,presented,12
+4099,Stimulus,presented,13
+4401,Stimulus,presented,14
+4403,Stimulus,presented,15
+4702,stdout,received,'(-33, 0)'
+4729,Stimulus,presented,16
+4733,Stimulus,presented,17
+5031,Stimulus,presented,18
+5033,Stimulus,presented,19
+5333,stdout,received,'(-48, 0)'
+5350,Stimulus,presented,20
+5352,Stimulus,presented,21
+5953,Stimulus,presented,22
+5955,Stimulus,presented,23
+6555,stdout,received,'(-41, 0)'
+6578,Stimulus,presented,24
+6579,Stimulus,presented,25
+7181,Stimulus,presented,26
+7183,Stimulus,presented,27
+7783,stdout,received,'(-39, 0)'
+7805,Stimulus,presented,28
+7807,Stimulus,presented,29
+8407,Stimulus,presented,30
+8410,Stimulus,presented,31
+9010,stdout,received,'(-37, 0)'
+9030,Stimulus,presented,32
+9032,Stimulus,presented,33
+9632,Stimulus,presented,34
+9634,Stimulus,presented,35
+10234,stdout,received,'(-58, 0)'
+10249,Stimulus,presented,36
+10251,Stimulus,presented,37
+10851,Stimulus,presented,38
+10853,Stimulus,presented,39
+11453,stdout,received,'(-20, 0)'
+11485,Stimulus,presented,40
+11485,Stimulus,presented,41
+11485,Stimulus,presented,44
+11488,Stimulus,presented,45
+11787,Stimulus,presented,42
+11787,Stimulus,presented,43
+11787,Stimulus,presented,46
+11789,Stimulus,presented,47
+12089,stdout,received,'(-54, 0)'
+12122,Stimulus,presented,48
+12123,Stimulus,presented,49
+12123,Stimulus,presented,52
+12125,Stimulus,presented,53
+12424,Stimulus,presented,50
+12424,Stimulus,presented,51
+12424,Stimulus,presented,54
+12426,Stimulus,presented,55
+12725,stdout,received,'(-70, 0)'
+12761,Stimulus,presented,56
+12761,Stimulus,presented,57
+12761,Stimulus,presented,60
+12763,Stimulus,presented,61
+13063,Stimulus,presented,58
+13063,Stimulus,presented,59
+13063,Stimulus,presented,62
+13065,Stimulus,presented,63
+13365,stdout,received,'(-43, 0)'
+13401,Stimulus,presented,64
+13401,Stimulus,presented,65
+13401,Stimulus,presented,68
+13403,Stimulus,presented,69
+13703,Stimulus,presented,66
+13704,Stimulus,presented,67
+13704,Stimulus,presented,70
+13705,Stimulus,presented,71
+14005,stdout,received,'(-39, 0)'
+14041,Stimulus,presented,72
+14041,Stimulus,presented,73
+14041,Stimulus,presented,76
+14043,Stimulus,presented,77
+14343,Stimulus,presented,74
+14343,Stimulus,presented,75
+14343,Stimulus,presented,78
+14345,Stimulus,presented,79
+14646,Experiment,ended
+14657,Stimulus,presented,80

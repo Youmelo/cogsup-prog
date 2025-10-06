@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 01:20:18
+#sha1: 75f625
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2326,stderr,received,'Traceback (most recent call last):'
+2326,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 51, in <module>'
+2327,stderr,received,'    c1f1 = make_circle(current_trial_positions["c1f1"][trial])'
+2327,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2327,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 9, in make_circle'
+2327,stderr,received,'    return [stimuli.Circle(radius=c_rad, position=pos, colour=c_color) for pos in pos_list]'
+2327,stderr,received,'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2327,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_circle.py", line 51, in __init__'
+2328,stderr,received,'    Ellipse.__init__(self, [radius, radius], colour, line_width,'
+2328,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_ellipse.py", line 43, in __init__'
+2328,stderr,received,'    Visual.__init__(self, position)'
+2329,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 237, in __init__'
+2329,stderr,received,'    self._position = list(position)'
+2329,stderr,received,'                     ^^^^^^^^^^^^^^'
+2329,stderr,received,"TypeError: 'int' object is not iterable"

@@ -1,7 +1,7 @@
 from expyriment import design, control, stimuli
 import random
 
-def load(stims):
+def load(stims): 
     for stim in stims:
         stim.preload()
 
@@ -14,7 +14,7 @@ def timed_draw(stims):
     # return the time it took to draw
 
 def present_for(stims, t=1000):
-    to = exp.clock.time
+    t0 = exp.clock.time
     for i, stim in enumerate(stims):
         stim.present(clear=(i == 0), update=(len(stims)-1 == i))
     t1 = exp.clock.time

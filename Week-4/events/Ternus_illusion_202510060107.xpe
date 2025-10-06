@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 01:07:36
+#sha1: dd50b6
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2088,stderr,received,'Traceback (most recent call last):'
+2088,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 67, in <module>'
+2088,stderr,received,'    load_stimuli(frame1_stims)'
+2088,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 6, in load_stimuli'
+2089,stderr,received,'    stim.preload()'
+2089,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1058, in preload'
+2089,stderr,received,'    self._ogl_screen = _LaminaPanelSurface('
+2089,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^'
+2089,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 80, in __init__'
+2090,stderr,received,'    self.refresh_position()'
+2090,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 110, in refresh_position'
+2090,stderr,received,'    bottomleft = oglu.gluUnProject(screensize[0] // 2 - \\'
+2090,stderr,received,'                                   ^^^^^^^^^^^^^^^^^^^^^^'
+2090,stderr,received,"TypeError: unsupported operand type(s) for +: 'int' and 'tuple'"

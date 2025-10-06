@@ -1,0 +1,14 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 00:57:49
+#sha1: f6e043
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2236,stderr,received,'Traceback (most recent call last):'
+2236,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 68, in <module>'
+2236,stderr,received,'    load_stimuli(frame1_stims)'
+2236,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 6, in load_stimuli'
+2236,stderr,received,'    stim.preload()'
+2237,stderr,received,'    ^^^^^^^^^^^^'
+2237,stderr,received,"AttributeError: 'list' object has no attribute 'preload'"

@@ -1,0 +1,38 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 01:35:27
+#sha1: 487926
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2088,Stimulus,presented,0
+2092,Stimulus,presented,1
+3292,Stimulus,presented,2
+3294,Stimulus,presented,3
+4511,Stimulus,presented,4
+4513,Stimulus,presented,5
+5713,Stimulus,presented,6
+5715,Stimulus,presented,7
+6930,Stimulus,presented,8
+6932,Stimulus,presented,9
+11133,Stimulus,presented,10
+11136,Stimulus,presented,11
+15358,Stimulus,presented,12
+15362,Stimulus,presented,13
+19563,Stimulus,presented,14
+19565,Stimulus,presented,15
+23768,stderr,received,'Traceback (most recent call last):'
+23768,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 58, in <module>'
+23769,stderr,received,'    t1f1 = add_tags(30, [(255, 0, 0)]* len(current_trial_positions["c1f1"]), current_trial_positions["c1f1"][trial])'
+23769,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+23769,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 13, in add_tags'
+23770,stderr,received,'    tags = [stimuli.Circle(radius = t_rad, position = pos, colour=t_color) for pos,t_color in zip(positions,t_colors)]'
+23770,stderr,received,'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+23770,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_circle.py", line 51, in __init__'
+23771,stderr,received,'    Ellipse.__init__(self, [radius, radius], colour, line_width,'
+23771,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_ellipse.py", line 43, in __init__'
+23771,stderr,received,'    Visual.__init__(self, position)'
+23771,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 237, in __init__'
+23771,stderr,received,'    self._position = list(position)'
+23771,stderr,received,'                     ^^^^^^^^^^^^^^'
+23771,stderr,received,"TypeError: 'int' object is not iterable"

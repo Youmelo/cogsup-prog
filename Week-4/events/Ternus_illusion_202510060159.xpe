@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 01:59:33
+#sha1: a1642e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2301,stdout,received,'(4, 0)'
+2314,Stimulus,presented,0
+2316,Stimulus,presented,1
+2616,Stimulus,presented,2
+2617,Stimulus,presented,3
+2918,stdout,received,'(18, 0)'
+2938,Stimulus,presented,4
+2940,Stimulus,presented,5
+3242,Stimulus,presented,6
+3245,Stimulus,presented,7
+3544,stdout,received,'(19, 0)'
+3556,Stimulus,presented,8
+3560,Stimulus,presented,9
+3859,Stimulus,presented,10
+3862,Stimulus,presented,11
+4161,stdout,received,'(4, 0)'
+4179,Stimulus,presented,12
+4181,Stimulus,presented,13
+4482,Stimulus,presented,14
+4485,Stimulus,presented,15
+4790,Keyboard,received,32,check
+4790,Experiment,ended
+4794,Stimulus,presented,16

@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Mon Oct 06 2025 00:58:50
+#sha1: 9625e5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2400,stderr,received,'Traceback (most recent call last):'
+2400,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 73, in <module>'
+2401,stderr,received,'    present_for(frame1_stims, t=200)     '
+2401,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2401,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-4\\Exercises\\Ternus_illusion.py", line 22, in present_for'
+2401,stderr,received,'    stim.present(clear=(i == 0), update=(len(stims)-1 == i))'
+2401,stderr,received,'    ^^^^^^^^^^^^'
+2402,stderr,received,"AttributeError: 'list' object has no attribute 'present'"
