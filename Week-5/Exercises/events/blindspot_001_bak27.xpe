@@ -1,0 +1,44 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Oct 08 2025 17:19:50
+#sha1: 7e1697
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2704,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2704,design,logged,
+2704,Experiment,started
+2717,Stimulus,presented,0
+2720,Stimulus,presented,1
+3718,Stimulus,presented,0
+3721,Stimulus,presented,1
+3896,Stimulus,presented,0
+3897,Stimulus,presented,1
+4040,Stimulus,presented,0
+4042,Stimulus,presented,1
+4198,Stimulus,presented,0
+4200,Stimulus,presented,1
+4348,Stimulus,presented,0
+4350,Stimulus,presented,1
+4500,Stimulus,presented,0
+4501,Stimulus,presented,1
+4629,Stimulus,presented,0
+4631,Stimulus,presented,1
+4964,Stimulus,presented,0
+4966,Stimulus,presented,1
+5123,Stimulus,presented,0
+5125,Stimulus,presented,1
+5498,Stimulus,presented,0
+5500,Stimulus,presented,1
+5641,Stimulus,presented,0
+5643,Stimulus,presented,1
+6668,Stimulus,presented,0
+6670,Stimulus,presented,2
+6847,Stimulus,presented,0
+6850,Stimulus,presented,3
+7030,Stimulus,presented,0
+7032,Stimulus,presented,4
+7285,Experiment,ended
+7299,Data,saved

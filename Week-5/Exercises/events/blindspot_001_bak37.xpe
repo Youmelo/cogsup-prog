@@ -1,0 +1,47 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Oct 08 2025 17:54:36
+#sha1: f4430b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2830,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2830,design,logged,
+2830,Experiment,started
+2842,Stimulus,presented,0
+7501,Keyboard,received,108,wait
+7514,Stimulus,presented,1
+7516,Stimulus,presented,2
+13425,Stimulus,presented,1
+13427,Stimulus,presented,2
+13590,Stimulus,presented,1
+13592,Stimulus,presented,2
+13745,Stimulus,presented,1
+13747,Stimulus,presented,2
+13868,Stimulus,presented,1
+13870,Stimulus,presented,2
+14003,Stimulus,presented,1
+14005,Stimulus,presented,2
+14133,Stimulus,presented,1
+14135,Stimulus,presented,2
+14272,Stimulus,presented,1
+14273,Stimulus,presented,2
+14395,Stimulus,presented,1
+14397,Stimulus,presented,2
+14521,Stimulus,presented,1
+14523,Stimulus,presented,2
+14634,Stimulus,presented,1
+14636,Stimulus,presented,2
+14748,Stimulus,presented,1
+14750,Stimulus,presented,2
+14863,Stimulus,presented,1
+14865,Stimulus,presented,2
+15096,stderr,received,'Traceback (most recent call last):'
+15096,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 77, in <module>'
+15097,stderr,received,'    run_trial(key_eye)'
+15097,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 69, in run_trial'
+15097,stderr,received,'    exp.data.add([eye,radius, pos_now[0], pos_now[1]])'
+15097,stderr,received,'                  ^^^'
+15097,stderr,received,"UnboundLocalError: cannot access local variable 'eye' where it is not associated with a value"

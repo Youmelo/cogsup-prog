@@ -1,0 +1,24 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Oct 08 2025 17:06:05
+#sha1: 0f61da
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2938,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2938,design,logged,
+2938,Experiment,started
+2954,Stimulus,presented,0
+2955,Stimulus,presented,1
+4173,Keyboard,received,49,check
+4173,stderr,received,'Traceback (most recent call last):'
+4173,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 52, in <module>'
+4173,stderr,received,'    run_trial()'
+4173,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 43, in run_trial'
+4174,stderr,received,'    circle.radius = max(5, radius - SIZE)'
+4174,stderr,received,'    ^^^^^^^^^^^^^'
+4174,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_circle.py", line 66, in radius'
+4174,stderr,received,'    raise AttributeError(Circle._getter_exception_message.format('
+4174,stderr,received,'AttributeError: Cannot set radius if surface exists!'

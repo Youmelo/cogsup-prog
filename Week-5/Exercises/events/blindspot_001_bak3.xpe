@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Oct 08 2025 16:45:40
+#sha1: 077e2f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3191,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+3192,design,logged,
+3192,Experiment,started
+3210,Stimulus,presented,0
+3212,Stimulus,presented,1
+10486,stderr,received,'Traceback (most recent call last):'
+10486,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 40, in <module>'
+10487,stderr,received,'    run_trial()'
+10487,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 30, in run_trial'
+10487,stderr,received,'    if key[0] == 27: # ESCAPE'
+10487,stderr,received,'       ~~~^^^'
+10488,stderr,received,"TypeError: 'int' object is not subscriptable"

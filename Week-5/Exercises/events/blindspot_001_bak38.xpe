@@ -1,0 +1,24 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Oct 08 2025 17:55:18
+#sha1: cee10b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2724,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2724,design,logged,
+2724,Experiment,started
+2737,Stimulus,presented,0
+3455,Keyboard,received,108,wait
+3455,stdout,received,'(108, 717)'
+3467,Stimulus,presented,1
+3470,Stimulus,presented,2
+4090,stderr,received,'Traceback (most recent call last):'
+4090,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 77, in <module>'
+4091,stderr,received,'    run_trial(key_eye)'
+4091,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 69, in run_trial'
+4091,stderr,received,'    exp.data.add([eye,radius, pos_now[0], pos_now[1]])'
+4091,stderr,received,'                  ^^^'
+4091,stderr,received,"UnboundLocalError: cannot access local variable 'eye' where it is not associated with a value"

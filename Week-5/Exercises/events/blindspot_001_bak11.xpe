@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Wed Oct 08 2025 16:49:42
+#sha1: 75d373
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5544,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+5544,design,logged,
+5544,Experiment,started
+5560,Stimulus,presented,0
+5562,Stimulus,presented,1
+9217,stderr,received,'Traceback (most recent call last):'
+9217,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 42, in <module>'
+9234,stderr,received,'    run_trial()'
+9235,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\blindspot.py", line 35, in run_trial'
+9235,stderr,received,"    elif key in [ord('a'), ord('A')]:"
+9235,stderr,received,'         ^^^^'
+9235,stderr,received,"NameError: name 'keyW' is not defined. Did you mean: 'key'?"
