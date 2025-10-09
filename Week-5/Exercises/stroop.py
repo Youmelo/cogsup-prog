@@ -1,7 +1,6 @@
 from expyriment import design, control, stimuli
 from expyriment.misc.constants import C_WHITE, C_BLACK, K_LEFT, K_RIGHT
 import random
-
 """ Global settings """
 exp = design.Experiment(name="Stroop", background_colour=C_WHITE, foreground_colour=C_BLACK)
 control.set_develop_mode()
@@ -20,12 +19,9 @@ def make_color_block(n_trials):
         word = random.choice(list(COLORS.keys()))
         if is_match:
             color = COLORS[word]
-            print(color)
-            print(is_match)
         else:
             color = COLORS[random.choice([c for c in COLORS.keys() if c != word])]
-            print(color)
-            print(is_match)
+
         stim = stimuli.TextLine(word, position=(0,0), text_colour=color, text_size=30)
         block_trials.append((is_match, word, color, stim))
     return block_trials
@@ -33,7 +29,7 @@ def make_color_block(n_trials):
 def load(stims): 
     for stim in stims:
         stim.preload()
-""" Experiment """
+
 def run_trial():
     key_record = ""
     for block in range(2):
@@ -58,8 +54,7 @@ def run_trial():
             if key == K_LEFT:
                 key_record = "Left"
                 accuracy = ismatch
-                print(ismatch)
-                print(accuracy)
+
             elif key == K_RIGHT:
                 key_record = "Right"
                 accuracy = not ismatch
@@ -71,13 +66,13 @@ def run_trial():
                 stimuli.TextLine(text="Incorrect!Press any key to continue",position=(0,0),text_colour=(255,0,0)).present()
                 exp.keyboard.wait()
             exp.data.add([block, num_trial, ismatch, word, color, key_record, RT, accuracy])
-
-
    
 exp.add_data_variable_names(["block","trial","match","word","color","Response", "RT","Accuracy"])
 control.start(subject_id=1)
+
 intro_1 = stimuli.TextScreen("WELCOME TO TEST", intro)
 intro_1.present()
 exp.keyboard.wait()
+
 run_trial()    
 control.end()
