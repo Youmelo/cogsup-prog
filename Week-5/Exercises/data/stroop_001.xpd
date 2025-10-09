@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpd-file, coding: cp936
+#date: Thu Oct 09 2025 21:48:03
+#--EXPERIMENT INFO
+#e mainfile: stroop.py
+#e sha1: 73bd80
+#e modules: 
+#e Experiment: Stroop
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,block,trial,match,word,color,Response,RT,Accuracy
+1,0,1,False,Orange,"(0, 255, 0)",Left,321,False
+1,0,2,True,Blue,"(0, 0, 255)",Right,229,False
+1,0,3,True,Red,"(255, 0, 0)",Left,235,True
+1,0,4,False,Blue,"(255, 165, 0)",Left,220,False
+1,0,5,False,Blue,"(0, 255, 0)",Left,884,False
+1,1,1,True,Blue,"(0, 0, 255)",Right,707,False
+1,1,2,False,Green,"(255, 165, 0)",Left,325,False
+1,1,3,True,Red,"(255, 0, 0)",Left,185,True
+1,1,4,False,Green,"(255, 165, 0)",Left,404,False
+1,1,5,True,Orange,"(255, 165, 0)",Left,269,True

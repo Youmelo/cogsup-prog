@@ -31,7 +31,7 @@ def present_for(stims, num_frames):# num_frames = 60 = 1000ms
         exp.clock.wait(t-dt)    
 
 
-""" Test functions """
+""" Test functions 
 exp = design.Experiment()
 
 control.set_develop_mode()
@@ -60,3 +60,4 @@ for square in squares:
 print(durations)
 
 control.end()
+"""
