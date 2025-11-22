@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>  
+  <script type="text/javascript">
+    const jsPsych = initJsPsych({
+      on_finish: function(){
+        jsPsych.data.get().localSave("csv", "demo_jspsych_results.csv");
+        document.body.innerHTML = "Thank you!";
+        override_safe_mode: true;
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    const num_trials = 6
+    let key_prototype = ['F', 'J','F', 'J','F', 'J'];
+    keys = jsPsych.randomization.shuffle(keys);
+    let trials = [];
+    for (let k = 0; k < num_trials; k += 1){
+      trials.push({
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: keys[k],
+        choices: ['F', 'J']
+        });
+
+      trials.push({
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: '',
+        choices: 'NO_KEYS',
+        trial_duration: 500
+      }
+      );
+    }
+  </script>
+  <script type="text/javascript">
+    const helloTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: `
+        <p>Hello!</p>
+        <p>You will be taking part in a toy experiment.
+          You will see one of two letters displayed on the screen (${keys[0]} or ${keys[1]}).</p>
+        <p> Your role will be to press the key corresponding to the letter.
+          <b>Please answer as fast as you can!</b></p>
+        <p>Press any key to continue.</p>
+        `
+    };
+
+    let timeline = [helloTrial,...trials];
+    
+    jsPsych.run(timeline);
+  </script>
+</html>
