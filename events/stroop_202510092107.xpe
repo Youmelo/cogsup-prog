@@ -1,0 +1,10 @@
+6788,Stimulus,presented,21
+6884,stdout,received,'*** DEVELOP MODE ***'
+13023,stdout,received,'Traceback (most recent call last):'
+13023,stdout,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 64, in <module>'
+13023,stdout,received,'    run_trial()    '
+13023,stdout,received,'    ^^^^^^^^^^^'
+13023,stdout,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 38, in run_trial'
+13023,stdout,received,'    fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=fix_pos)'
+13024,stdout,received,'                                                                         ^^^^^^^'
+13024,stdout,received,"NameError: name 'fix_pos' is not defined"

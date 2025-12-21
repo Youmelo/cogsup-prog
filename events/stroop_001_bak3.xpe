@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:05:06
+#sha1: f9aa80
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2357,design,log,
+#design: #exp: Stroop
+#design: block_cnt,block_id,trial_cnt,trial_id
+2357,design,logged,
+2357,Experiment,started
+2373,Stimulus,presented,0
+2376,stderr,received,'Traceback (most recent call last):'
+2377,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 64, in <module>'
+2377,stderr,received,'    run_trial()    '
+2377,stderr,received,'    ^^^^^^^^^^^'
+2377,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 37, in run_trial'
+2377,stderr,received,'    draw.load(trials[:,3])'
+2377,stderr,received,'              ~~~~~~^^^^^'
+2378,stderr,received,'TypeError: list indices must be integers or slices, not tuple'

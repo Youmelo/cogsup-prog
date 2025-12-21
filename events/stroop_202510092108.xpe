@@ -1,0 +1,16 @@
+6174,Stimulus,presented,21
+6250,stdout,received,'*** DEVELOP MODE ***'
+11852,stdout,received,'Exception ignored in: <function Visual.__del__ at 0x000002362E244C20>'
+11852,stdout,received,'Traceback (most recent call last):'
+11852,stdout,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+11853,stdout,received,'    if self._compression_filename is not None:'
+11853,stdout,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+11853,stdout,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+11853,stdout,received,'Traceback (most recent call last):'
+11853,stdout,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 65, in <module>'
+11853,stdout,received,'    run_trial()    '
+11853,stdout,received,'    ^^^^^^^^^^^'
+11853,stdout,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 57, in run_trial'
+11854,stdout,received,'    stimuli.TextScreen("Thank you for your response!").present()'
+11854,stdout,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+11854,stdout,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'text'"

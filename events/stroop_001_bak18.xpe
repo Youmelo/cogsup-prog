@@ -1,0 +1,38 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:32:39
+#sha1: ded77f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3020,design,log,
+#design: #exp: Stroop
+#design: #dvn: block,trial,match,word,color,Response,RT,Accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+3020,design,logged,
+3020,Experiment,started
+3033,Stimulus,presented,0
+6424,Keyboard,received,32,wait
+6424,stdout,received,'(0, 255, 0)'
+6424,stdout,received,'True'
+6425,stdout,received,'(0, 0, 255)'
+6425,stdout,received,'True'
+6425,stdout,received,'(255, 165, 0)'
+6425,stdout,received,'False'
+6426,stdout,received,'(255, 165, 0)'
+6426,stdout,received,'False'
+6427,stdout,received,'(0, 0, 255)'
+6427,stdout,received,'False'
+6448,stderr,received,'Traceback (most recent call last):'
+6448,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 80, in <module>'
+6449,stderr,received,'    run_trial()    '
+6449,stderr,received,'    ^^^^^^^^^^^'
+6449,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 45, in run_trial'
+6449,stderr,received,'    draw.present_for(num_frames=12, stims=[fixation])'
+6449,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\drawing_functions.py", line 28, in present_for'
+6450,stderr,received,'    dt = timed_draw(stims)'
+6450,stderr,received,'         ^^^^^^^^^^^^^^^^^'
+6450,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\drawing_functions.py", line 16, in timed_draw'
+6450,stderr,received,'    t0 = exp.clock.time'
+6450,stderr,received,'         ^^^'
+6450,stderr,received,"NameError: name 'exp' is not defined"

@@ -1,0 +1,127 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:39:58
+#sha1: a2d7a6
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3260,design,log,
+#design: #exp: Stroop
+#design: #dvn: block,trial,match,word,color,Response,RT,Accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+3260,design,logged,
+3260,Experiment,started
+3273,Stimulus,presented,0
+3998,Keyboard,received,1073741903,wait
+3998,stdout,received,'(0, 255, 0)'
+3998,stdout,received,'True'
+3999,stdout,received,'(0, 255, 0)'
+3999,stdout,received,'True'
+4000,stdout,received,'(0, 255, 0)'
+4000,stdout,received,'False'
+4000,stdout,received,'(0, 0, 255)'
+4000,stdout,received,'True'
+4001,stdout,received,'(255, 165, 0)'
+4001,stdout,received,'False'
+4025,Stimulus,presented,6
+4528,Stimulus,presented,1
+5604,Keyboard,received,1073741904,wait
+5604,stdout,received,'1073741904'
+5604,stdout,received,'True'
+5604,stdout,received,'True'
+5604,stdout,received,'True'
+5609,Stimulus,presented,7
+6329,Keyboard,received,32,wait
+6334,Stimulus,presented,8
+6335,Stimulus,presented,6
+6837,Stimulus,presented,2
+7384,Keyboard,received,1073741904,wait
+7384,stdout,received,'1073741904'
+7384,stdout,received,'True'
+7384,stdout,received,'True'
+7384,stdout,received,'True'
+7388,Stimulus,presented,9
+7811,Keyboard,received,32,wait
+7814,Stimulus,presented,10
+7816,Stimulus,presented,6
+8319,Stimulus,presented,3
+9011,Keyboard,received,1073741903,wait
+9011,stdout,received,'1073741903'
+9011,stdout,received,'False'
+9015,Stimulus,presented,11
+9395,Keyboard,received,32,wait
+9399,Stimulus,presented,12
+9401,Stimulus,presented,6
+9903,Stimulus,presented,4
+12593,Keyboard,received,1073741904,wait
+12593,stdout,received,'1073741904'
+12593,stdout,received,'True'
+12593,stdout,received,'True'
+12593,stdout,received,'True'
+12597,Stimulus,presented,13
+12993,Keyboard,received,32,wait
+12997,Stimulus,presented,14
+13000,Stimulus,presented,6
+13501,Stimulus,presented,5
+14080,Keyboard,received,1073741903,wait
+14080,stdout,received,'1073741903'
+14080,stdout,received,'False'
+14084,Stimulus,presented,15
+14588,Keyboard,received,32,wait
+14594,Stimulus,presented,16
+14594,stdout,received,'(0, 255, 0)'
+14594,stdout,received,'False'
+14595,stdout,received,'(0, 255, 0)'
+14595,stdout,received,'True'
+14595,stdout,received,'(255, 0, 0)'
+14595,stdout,received,'False'
+14596,stdout,received,'(255, 165, 0)'
+14596,stdout,received,'True'
+14596,stdout,received,'(255, 0, 0)'
+14596,stdout,received,'False'
+14621,Stimulus,presented,22
+15125,Stimulus,presented,17
+15488,Keyboard,received,1073741904,wait
+15488,stdout,received,'1073741904'
+15488,stdout,received,'True'
+15488,stdout,received,'False'
+15488,stdout,received,'False'
+15491,Stimulus,presented,23
+16262,Keyboard,received,32,wait
+16265,Stimulus,presented,24
+16267,Stimulus,presented,22
+16769,Stimulus,presented,18
+17105,Keyboard,received,1073741903,wait
+17106,stdout,received,'1073741903'
+17106,stdout,received,'False'
+17109,Stimulus,presented,25
+17598,Keyboard,received,32,wait
+17602,Stimulus,presented,26
+17603,Stimulus,presented,22
+18105,Stimulus,presented,19
+18429,Keyboard,received,1073741903,wait
+18429,stdout,received,'1073741903'
+18429,stdout,received,'False'
+18433,Stimulus,presented,27
+19309,Keyboard,received,32,wait
+19312,Stimulus,presented,28
+19314,Stimulus,presented,22
+19816,Stimulus,presented,20
+20094,Keyboard,received,1073741903,wait
+20094,stdout,received,'1073741903'
+20094,stdout,received,'False'
+20097,Stimulus,presented,29
+20951,Keyboard,received,32,wait
+20955,Stimulus,presented,30
+20961,Stimulus,presented,22
+21463,Stimulus,presented,21
+21779,Keyboard,received,1073741904,wait
+21780,stdout,received,'1073741904'
+21780,stdout,received,'True'
+21780,stdout,received,'False'
+21780,stdout,received,'False'
+21783,Stimulus,presented,31
+22607,Keyboard,received,32,wait
+22610,Stimulus,presented,32
+22612,Experiment,ended
+22626,Data,saved

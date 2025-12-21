@@ -1,0 +1,7 @@
+6468,Stimulus,presented,21
+6622,stdout,received,'*** DEVELOP MODE ***'
+8583,stdout,received,'Traceback (most recent call last):'
+8583,stdout,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 64, in <module>'
+8583,stdout,received,'    run_trial()    '
+8583,stdout,received,'    ^^^^^^^^^^^'
+8583,stdout,received,"TypeError: run_trial() missing 1 required positional argument: 'key_eye'"

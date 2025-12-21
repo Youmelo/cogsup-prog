@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:44:12
+#sha1: 24117e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10872,design,log,
+#design: #exp: SaveTest
+#design: #dvn: Test_Column
+#design: block_cnt,block_id,trial_cnt,trial_id
+10872,design,logged,
+10872,Experiment,started
+10873,stdout,received,'已经添加数据，准备结束...'
+10873,Experiment,ended
+10887,Data,saved
+10893,Stimulus,presented,0

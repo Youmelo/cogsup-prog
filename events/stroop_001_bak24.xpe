@@ -1,0 +1,117 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:40:59
+#sha1: 4440e1
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6841,design,log,
+#design: #exp: Stroop
+#design: #dvn: block,trial,match,word,color,Response,RT,Accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+6841,design,logged,
+6841,Experiment,started
+6855,Stimulus,presented,0
+7523,Keyboard,received,1073741903,wait
+7523,stdout,received,'(255, 0, 0)'
+7523,stdout,received,'False'
+7524,stdout,received,'(0, 0, 255)'
+7524,stdout,received,'True'
+7524,stdout,received,'(255, 0, 0)'
+7525,stdout,received,'False'
+7525,stdout,received,'(255, 0, 0)'
+7525,stdout,received,'True'
+7526,stdout,received,'(0, 255, 0)'
+7526,stdout,received,'False'
+7550,Stimulus,presented,6
+8052,Stimulus,presented,1
+8850,Keyboard,received,1073741903,wait
+8850,stdout,received,'1073741903'
+8850,stdout,received,'False'
+8855,Stimulus,presented,7
+10246,Keyboard,received,32,wait
+10248,Stimulus,presented,6
+10751,Stimulus,presented,2
+11100,Keyboard,received,1073741904,wait
+11100,stdout,received,'1073741904'
+11100,stdout,received,'True'
+11100,stdout,received,'True'
+11100,stdout,received,'True'
+11104,Stimulus,presented,8
+11433,Keyboard,received,32,wait
+11435,Stimulus,presented,6
+11938,Stimulus,presented,3
+12246,Keyboard,received,1073741903,wait
+12246,stdout,received,'1073741903'
+12246,stdout,received,'False'
+12249,Stimulus,presented,9
+12565,Keyboard,received,32,wait
+12567,Stimulus,presented,6
+13069,Stimulus,presented,4
+13327,Keyboard,received,1073741904,wait
+13327,stdout,received,'1073741904'
+13327,stdout,received,'True'
+13327,stdout,received,'True'
+13327,stdout,received,'True'
+13331,Stimulus,presented,10
+13746,Keyboard,received,32,wait
+13748,Stimulus,presented,6
+14249,Stimulus,presented,5
+14474,Keyboard,received,1073741903,wait
+14474,stdout,received,'1073741903'
+14474,stdout,received,'False'
+14477,Stimulus,presented,11
+15076,Keyboard,received,32,wait
+15076,stdout,received,'(255, 165, 0)'
+15076,stdout,received,'True'
+15076,stdout,received,'(0, 0, 255)'
+15076,stdout,received,'True'
+15077,stdout,received,'(255, 165, 0)'
+15077,stdout,received,'True'
+15078,stdout,received,'(255, 0, 0)'
+15078,stdout,received,'False'
+15078,stdout,received,'(0, 255, 0)'
+15078,stdout,received,'False'
+15103,Stimulus,presented,17
+15606,Stimulus,presented,12
+16819,Keyboard,received,1073741904,wait
+16819,stdout,received,'1073741904'
+16819,stdout,received,'True'
+16819,stdout,received,'True'
+16819,stdout,received,'True'
+16823,Stimulus,presented,18
+17167,Keyboard,received,32,wait
+17169,Stimulus,presented,17
+17670,Stimulus,presented,13
+18509,Keyboard,received,1073741904,wait
+18509,stdout,received,'1073741904'
+18509,stdout,received,'True'
+18509,stdout,received,'True'
+18509,stdout,received,'True'
+18512,Stimulus,presented,19
+18838,Keyboard,received,32,wait
+18840,Stimulus,presented,17
+19341,Stimulus,presented,14
+19819,Keyboard,received,1073741903,wait
+19819,stdout,received,'1073741903'
+19819,stdout,received,'False'
+19823,Stimulus,presented,20
+20714,Keyboard,received,32,wait
+20716,Stimulus,presented,17
+21218,Stimulus,presented,15
+21473,Keyboard,received,1073741903,wait
+21473,stdout,received,'1073741903'
+21473,stdout,received,'False'
+21477,Stimulus,presented,21
+22172,Keyboard,received,32,wait
+22174,Stimulus,presented,17
+22675,Stimulus,presented,16
+23036,Keyboard,received,1073741904,wait
+23036,stdout,received,'1073741904'
+23036,stdout,received,'True'
+23036,stdout,received,'False'
+23036,stdout,received,'False'
+23040,Stimulus,presented,22
+23537,Keyboard,received,32,wait
+23539,Experiment,ended
+23554,Data,saved

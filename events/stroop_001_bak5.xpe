@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:08:09
+#sha1: 4717b5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4912,design,log,
+#design: #exp: Stroop
+#design: block_cnt,block_id,trial_cnt,trial_id
+4912,design,logged,
+4912,Experiment,started
+4927,Stimulus,presented,0
+4957,Stimulus,presented,1
+9429,Keyboard,received,1073741904,wait
+9430,stderr,received,'Traceback (most recent call last):'
+9430,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 64, in <module>'
+9430,stderr,received,'    run_trial()    '
+9430,stderr,received,'    ^^^^^^^^^^^'
+9430,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 55, in run_trial'
+9431,stderr,received,'    exp.data.add([block, num_trial, ismatch, word, color, key_record, RT, accuracy])'
+9431,stderr,received,'                                                                          ^^^^^^^^'
+9431,stderr,received,"UnboundLocalError: cannot access local variable 'accuracy' where it is not associated with a value"

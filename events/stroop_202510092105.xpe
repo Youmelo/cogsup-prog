@@ -1,0 +1,10 @@
+6295,Stimulus,presented,21
+6370,stdout,received,'*** DEVELOP MODE ***'
+8829,stdout,received,'Traceback (most recent call last):'
+8829,stdout,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 64, in <module>'
+8830,stdout,received,'    run_trial()    '
+8830,stdout,received,'    ^^^^^^^^^^^'
+8830,stdout,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 37, in run_trial'
+8830,stdout,received,'    draw.load(trials[:,3])'
+8830,stdout,received,'              ~~~~~~^^^^^'
+8830,stdout,received,'TypeError: list indices must be integers or slices, not tuple'

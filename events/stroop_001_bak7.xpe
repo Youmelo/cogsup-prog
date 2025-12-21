@@ -1,0 +1,55 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:10:51
+#sha1: 267c8a
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1159,design,log,
+#design: #exp: Stroop
+#design: block_cnt,block_id,trial_cnt,trial_id
+1159,design,logged,
+1159,Experiment,started
+1175,Stimulus,presented,0
+1175,stdout,received,'(255, 165, 0)'
+1176,stdout,received,'(255, 0, 0)'
+1176,stdout,received,'(255, 0, 0)'
+1177,stdout,received,'(255, 0, 0)'
+1177,stdout,received,'(255, 0, 0)'
+1205,Stimulus,presented,1
+2957,Keyboard,received,1073741903,wait
+2961,Stimulus,presented,7
+2963,Stimulus,presented,2
+3889,Keyboard,received,1073741904,wait
+3893,Stimulus,presented,8
+3896,Stimulus,presented,3
+4748,Keyboard,received,1073741903,wait
+4752,Stimulus,presented,9
+4755,Stimulus,presented,4
+5351,Keyboard,received,1073741904,wait
+5355,Stimulus,presented,10
+5357,Stimulus,presented,5
+5758,Keyboard,received,1073741903,wait
+5762,Stimulus,presented,11
+5762,stdout,received,'(255, 0, 0)'
+5763,stdout,received,'(255, 0, 0)'
+5764,stdout,received,'(0, 0, 255)'
+5764,stdout,received,'(255, 165, 0)'
+5765,stdout,received,'(0, 0, 255)'
+5793,Stimulus,presented,12
+6211,Keyboard,received,1073741903,wait
+6215,Stimulus,presented,18
+6217,Stimulus,presented,13
+6533,Keyboard,received,1073741903,wait
+6536,Stimulus,presented,19
+6537,Stimulus,presented,14
+6845,Keyboard,received,1073741903,wait
+6848,Stimulus,presented,20
+6850,Stimulus,presented,15
+7112,Keyboard,received,1073741903,wait
+7115,Stimulus,presented,21
+7117,Stimulus,presented,16
+7373,Keyboard,received,1073741903,wait
+7376,Stimulus,presented,22
+7379,Experiment,ended
+7394,Data,saved

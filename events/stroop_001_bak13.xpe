@@ -1,0 +1,33 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:24:58
+#sha1: d49e36
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3008,design,log,
+#design: #exp: Stroop
+#design: block_cnt,block_id,trial_cnt,trial_id
+3008,design,logged,
+3008,Experiment,started
+3025,Stimulus,presented,0
+3025,stdout,received,'(0, 255, 0)'
+3025,stdout,received,'True'
+3026,stdout,received,'(255, 165, 0)'
+3026,stdout,received,'False'
+3026,stdout,received,'(0, 0, 255)'
+3026,stdout,received,'True'
+3027,stdout,received,'(255, 0, 0)'
+3027,stdout,received,'False'
+3028,stdout,received,'(255, 0, 0)'
+3028,stdout,received,'True'
+3052,Stimulus,presented,1
+4158,Keyboard,received,1073741904,wait
+4158,stderr,received,'Traceback (most recent call last):'
+4158,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 79, in <module>'
+4158,stderr,received,'    run_trial()    '
+4158,stderr,received,'    ^^^^^^^^^^^'
+4158,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 51, in run_trial'
+4159,stderr,received,'    key = exp.keyboard.last_key'
+4159,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^'
+4159,stderr,received,"AttributeError: 'Keyboard' object has no attribute 'last_key'"

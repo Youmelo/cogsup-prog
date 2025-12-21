@@ -1,0 +1,127 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:41:52
+#sha1: 4440e1
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2729,design,log,
+#design: #exp: Stroop
+#design: #dvn: block,trial,match,word,color,Response,RT,Accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+2729,design,logged,
+2729,Experiment,started
+2746,Stimulus,presented,0
+3312,Keyboard,received,32,wait
+3312,stdout,received,'(0, 0, 255)'
+3312,stdout,received,'False'
+3313,stdout,received,'(255, 165, 0)'
+3313,stdout,received,'True'
+3314,stdout,received,'(255, 165, 0)'
+3314,stdout,received,'True'
+3314,stdout,received,'(255, 165, 0)'
+3314,stdout,received,'True'
+3315,stdout,received,'(0, 255, 0)'
+3315,stdout,received,'False'
+3337,Stimulus,presented,6
+3838,Stimulus,presented,1
+4180,Keyboard,received,1073741904,wait
+4180,stdout,received,'1073741904'
+4180,stdout,received,'True'
+4180,stdout,received,'False'
+4180,stdout,received,'False'
+4184,Stimulus,presented,7
+4529,Keyboard,received,32,wait
+4532,Stimulus,presented,6
+5033,Stimulus,presented,2
+5325,Keyboard,received,1073741904,wait
+5325,stdout,received,'1073741904'
+5325,stdout,received,'True'
+5325,stdout,received,'True'
+5325,stdout,received,'True'
+5329,Stimulus,presented,8
+5720,Keyboard,received,32,wait
+5722,Stimulus,presented,6
+6223,Stimulus,presented,3
+6607,Keyboard,received,1073741904,wait
+6607,stdout,received,'1073741904'
+6607,stdout,received,'True'
+6607,stdout,received,'True'
+6607,stdout,received,'True'
+6610,Stimulus,presented,9
+6930,Keyboard,received,32,wait
+6932,Stimulus,presented,6
+7434,Stimulus,presented,4
+7750,Keyboard,received,1073741904,wait
+7750,stdout,received,'1073741904'
+7750,stdout,received,'True'
+7750,stdout,received,'True'
+7750,stdout,received,'True'
+7753,Stimulus,presented,10
+8087,Keyboard,received,32,wait
+8090,Stimulus,presented,6
+8592,Stimulus,presented,5
+8916,Keyboard,received,1073741904,wait
+8916,stdout,received,'1073741904'
+8916,stdout,received,'True'
+8916,stdout,received,'False'
+8916,stdout,received,'False'
+8920,Stimulus,presented,11
+9321,Keyboard,received,32,wait
+9321,stdout,received,'(0, 255, 0)'
+9321,stdout,received,'False'
+9322,stdout,received,'(0, 255, 0)'
+9322,stdout,received,'True'
+9322,stdout,received,'(0, 255, 0)'
+9322,stdout,received,'False'
+9323,stdout,received,'(255, 0, 0)'
+9323,stdout,received,'False'
+9323,stdout,received,'(255, 0, 0)'
+9323,stdout,received,'True'
+9348,Stimulus,presented,17
+9852,Stimulus,presented,12
+10098,Keyboard,received,1073741904,wait
+10098,stdout,received,'1073741904'
+10098,stdout,received,'True'
+10098,stdout,received,'False'
+10098,stdout,received,'False'
+10101,Stimulus,presented,18
+10511,Keyboard,received,32,wait
+10513,Stimulus,presented,17
+11015,Stimulus,presented,13
+11288,Keyboard,received,1073741904,wait
+11288,stdout,received,'1073741904'
+11288,stdout,received,'True'
+11288,stdout,received,'True'
+11288,stdout,received,'True'
+11291,Stimulus,presented,19
+11609,Keyboard,received,32,wait
+11611,Stimulus,presented,17
+12112,Stimulus,presented,14
+12412,Keyboard,received,1073741904,wait
+12412,stdout,received,'1073741904'
+12412,stdout,received,'True'
+12412,stdout,received,'False'
+12412,stdout,received,'False'
+12416,Stimulus,presented,20
+12724,Keyboard,received,32,wait
+12726,Stimulus,presented,17
+13227,Stimulus,presented,15
+13544,Keyboard,received,1073741904,wait
+13544,stdout,received,'1073741904'
+13544,stdout,received,'True'
+13545,stdout,received,'False'
+13545,stdout,received,'False'
+13548,Stimulus,presented,21
+13913,Keyboard,received,32,wait
+13915,Stimulus,presented,17
+14417,Stimulus,presented,16
+14702,Keyboard,received,1073741904,wait
+14702,stdout,received,'1073741904'
+14702,stdout,received,'True'
+14702,stdout,received,'True'
+14702,stdout,received,'True'
+14704,Stimulus,presented,22
+15039,Keyboard,received,32,wait
+15042,Experiment,ended
+15057,Data,saved

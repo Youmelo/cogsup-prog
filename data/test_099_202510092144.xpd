@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpd-file, coding: cp936
+#date: Thu Oct 09 2025 21:44:12
+#--EXPERIMENT INFO
+#e mainfile: test.py
+#e sha1: 24117e
+#e modules: 
+#e Experiment: SaveTest
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 99
+subject_id,Test_Column
+99,Success!

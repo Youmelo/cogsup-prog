@@ -1,0 +1,12 @@
+6307,Stimulus,presented,21
+6380,stdout,received,'*** DEVELOP MODE ***'
+8083,stdout,received,'(0, 255, 0)'
+8083,stdout,received,'(0, 0, 255)'
+8084,stdout,received,'(255, 0, 0)'
+8085,stdout,received,'(0, 255, 0)'
+8085,stdout,received,'(0, 0, 255)'
+11351,stdout,received,'(0, 0, 255)'
+11352,stdout,received,'(0, 255, 0)'
+11353,stdout,received,'(255, 0, 0)'
+11353,stdout,received,'(255, 165, 0)'
+11354,stdout,received,'(0, 255, 0)'

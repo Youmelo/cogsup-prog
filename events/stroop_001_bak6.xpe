@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.12.7), .xpe-file, coding: cp936
+#date: Thu Oct 09 2025 21:08:57
+#sha1: de38b8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LmysFriend', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3561,design,log,
+#design: #exp: Stroop
+#design: block_cnt,block_id,trial_cnt,trial_id
+3561,design,logged,
+3561,Experiment,started
+3577,Stimulus,presented,0
+3607,Stimulus,presented,1
+5526,Keyboard,received,1073741903,wait
+5526,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000002362E244C20>'
+5526,stderr,received,'Traceback (most recent call last):'
+5526,stderr,received,'  File "E:\\Anaconda\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+5527,stderr,received,'    if self._compression_filename is not None:'
+5527,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5527,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+5528,stderr,received,'Traceback (most recent call last):'
+5528,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 65, in <module>'
+5528,stderr,received,'    run_trial()    '
+5528,stderr,received,'    ^^^^^^^^^^^'
+5528,stderr,received,'  File "e:\\CSFile\\CogSup\\Programming\\Assignment\\Week-5\\Exercises\\stroop.py", line 57, in run_trial'
+5528,stderr,received,'    stimuli.TextScreen("Thank you for your response!").present()'
+5529,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5529,stderr,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'text'"
+5542,Data,saved
